@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Giphy API</title>
+	<link rel="stylesheet" href="assets/giphy.css">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="animal-button"></div>
+
+	<form id="animal-form">
+		<label id="label-text" for="animal-input">Add an animal</label>
+		<input type="text" id="animal-input"><br> 
+		<!-- button triggers new animal gif -->
+		<input id="add-animal" type="submit" value="submit" style='height:15px'>
+	</form>
+
+	<div id="animals"></div>
+
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="assets/giphy.js"></script>
+</body>
+</html>

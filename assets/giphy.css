@@ -1,0 +1,29 @@
+.container {
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+.buttons {
+	border: solid grey;
+	background-color: #FF4136;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 3px;
+	font-size:16px;
+}
+
+
+.buttons:hover {
+	cursor: pointer;
+
+}
+ 
+#label-text {
+	font-size: 24px;
+	font-family: sans-serif;
+}
+
+#animal-input {
+	width: 100px;
+}
